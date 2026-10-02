@@ -1,0 +1,49 @@
+# ── Model weights (too large for git) ─────────────────────────────────────────
+models/*.bin
+models/*.gguf
+models/*.ggml
+
+# ── Persistent vector DB (auto-generated) ────────────────────────────────────
+models/knowledge_db.json
+
+# ── C++ build artifacts ───────────────────────────────────────────────────────
+build/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+*.egg
+.env
+.venv
+venv/
+env/
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
