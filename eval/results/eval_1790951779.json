@@ -1,0 +1,72 @@
+{
+  "score": 0.7266,
+  "aggregate": {
+    "relevance": 0.333,
+    "consistency": 0.8,
+    "hallucination": 0.0,
+    "clarification": 1.0,
+    "latency_ms": 0.0,
+    "pass_rate": 0.0,
+    "total": 4,
+    "passed": 0
+  },
+  "by_category": {
+    "knowledge_lookup": {
+      "count": 4,
+      "passed": 0,
+      "relevance": 0.333,
+      "pass_rate": 0.0
+    }
+  },
+  "results": [
+    {
+      "scenario_id": "E001",
+      "category": "knowledge_lookup",
+      "relevance": 0.333,
+      "consistency": 0.8,
+      "hallucination": 0.0,
+      "clarification": 1.0,
+      "latency_ms": 0.0,
+      "answer": "[Dummy answer for: Apa itu Flash Attention?]",
+      "passed": false,
+      "notes": ""
+    },
+    {
+      "scenario_id": "E002",
+      "category": "knowledge_lookup",
+      "relevance": 0.5,
+      "consistency": 0.8,
+      "hallucination": 0.0,
+      "clarification": 1.0,
+      "latency_ms": 0.0,
+      "answer": "[Dummy answer for: Berapa layer model stories15M?]",
+      "passed": false,
+      "notes": ""
+    },
+    {
+      "scenario_id": "E080",
+      "category": "knowledge_lookup",
+      "relevance": 0.5,
+      "consistency": 0.8,
+      "hallucination": 0.0,
+      "clarification": 1.0,
+      "latency_ms": 0.0,
+      "answer": "[Dummy answer for: Port berapa server berjalan?]",
+      "passed": false,
+      "notes": ""
+    },
+    {
+      "scenario_id": "E081",
+      "category": "knowledge_lookup",
+      "relevance": 0.0,
+      "consistency": 0.8,
+      "hallucination": 0.0,
+      "clarification": 1.0,
+      "latency_ms": 0.0,
+      "answer": "[Dummy answer for: Apa itu speculative decoding?]",
+      "passed": false,
+      "notes": ""
+    }
+  ],
+  "timestamp": 1790951779.4608877
+}
